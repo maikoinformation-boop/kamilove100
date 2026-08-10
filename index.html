@@ -763,8 +763,28 @@
 </div>
 
 <div class="section tight" style="padding-top:0;">
-  <p class="cta-note" style="font-size:15px; margin-top:0;">お申し込みは、画面下部の<br><strong style="color:var(--green-deep);">「申し込みはこちら」</strong>ボタンから専用フォームへ進めます</p>
+  <p class="cta-note" style="font-size:15px; margin-top:0;">お申し込みは、画面下部の<br><strong style="color:var(--green-deep);">「申し込みはこちら」</strong>ボタンを押すと、すぐ下のフォームに移動します</p>
 </div>
+
+<div class="section tight" id="apply-form" style="padding-top:0; scroll-margin-top:24px;">
+  <div style="max-width:620px; margin:0 auto; border-radius:18px; overflow:hidden; box-shadow:0 10px 26px rgba(62,43,34,0.1);">
+    <iframe src="https://ws.formzu.net/dist/S52024367/" style="height: 500px; max-width: 620px; width: 100%; border: 0; display:block;" onload="try{ if (navigator.userAgent.toLowerCase().match(/iphone|ipad|macintosh/) !== null && typeof formzuInitialLoad !== 'undefined' && formzuInitialLoad === true) this.scrollIntoView(true); }catch(e){}"></iframe>
+  </div>
+</div>
+<script>
+if (window.addEventListener) {
+   window.addEventListener( 'load', formzuInitialSetting, false );
+}
+else if (window.attachEvent) {
+   window.attachEvent( 'onload', formzuInitialSetting );
+}
+else {
+   window.onload = formzuInitialSetting;
+}
+function formzuInitialSetting() {
+   formzuInitialLoad = true;
+}
+</script>
 
 <div class="divider"><div class="line"></div></div>
 
@@ -819,7 +839,7 @@
 <footer>和の国 豊穣理論™ / 33works</footer>
 
 <div class="sticky-cta">
-  <a class="primary" href="https://ws.formzu.net/dist/S52024367/" target="_blank" rel="noopener">申し込みはこちら</a>
+  <a class="primary" href="#apply-form">申し込みはこちら</a>
 </div>
 
 <script>
